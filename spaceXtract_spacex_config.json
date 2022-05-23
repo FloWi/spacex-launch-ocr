@@ -1,20 +1,4 @@
 {
-    "stage": [
-        [
-            0.03981481481,
-            0.07037037037,
-            -0.34322916666,
-            -0.3
-        ],
-        [
-            "./Templates/dm-1/1080p/stage1.png",
-            "./Templates/dm-1/1080p/stage2.png"
-        ],
-        0.7,
-        [
-            1
-        ]
-    ],
     "unit": [
         [
             0.01851851851,
@@ -53,7 +37,7 @@
             1
         ]
     ],
-    "velocity": [
+    "velocity-stage1": [
         [
             -0.02,
             0.02407407407,
@@ -81,12 +65,67 @@
             5
         ]
     ],
-    "altitude": [
+    "altitude-stage1": [
         [
             -0.02037037037,
             0.02592592592,
             -0.28385416666,
             -0.23177083333
+        ],
+        [
+            "./Templates/dm-1/1080p/0.png",
+            "./Templates/dm-1/1080p/1.png",
+            "./Templates/dm-1/1080p/2.png",
+            "./Templates/dm-1/1080p/3.png",
+            "./Templates/dm-1/1080p/4.png",
+            "./Templates/dm-1/1080p/5.png",
+            "./Templates/dm-1/1080p/6.png",
+            "./Templates/dm-1/1080p/7.png",
+            "./Templates/dm-1/1080p/8.png",
+            "./Templates/dm-1/1080p/9.png"
+        ],
+        0.75,
+        [
+            1,
+            2,
+            3,
+            4
+        ]
+    ],
+    "velocity-stage2": [
+        [
+            -0.02,
+            0.02407407407,
+            0.44083333333,
+            0.36
+        ],
+        [
+            "./Templates/dm-1/1080p/0.png",
+            "./Templates/dm-1/1080p/1.png",
+            "./Templates/dm-1/1080p/2.png",
+            "./Templates/dm-1/1080p/3.png",
+            "./Templates/dm-1/1080p/4.png",
+            "./Templates/dm-1/1080p/5.png",
+            "./Templates/dm-1/1080p/6.png",
+            "./Templates/dm-1/1080p/7.png",
+            "./Templates/dm-1/1080p/8.png",
+            "./Templates/dm-1/1080p/9.png"
+        ],
+        0.75,
+        [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    ],
+    "altitude-stage2": [
+        [
+            -0.02037037037,
+            0.02592592592,
+            0.50685416666,
+            0.45477083333
         ],
         [
             "./Templates/dm-1/1080p/0.png",
